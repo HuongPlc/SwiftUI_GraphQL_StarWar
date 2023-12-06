@@ -1,0 +1,12 @@
+query FilmDetail($filmId2: ID) {
+  film(id: $filmId2) {
+    characterConnection {
+      characters {
+        name
+      }
+    }
+    episodeID
+    title
+    openingCrawl
+  }
+}
